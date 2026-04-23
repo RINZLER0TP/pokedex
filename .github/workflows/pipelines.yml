@@ -17,6 +17,4 @@ jobs:
       # pipeline actions
       - run: npm install
       - run: npm run test:cov
-      - run: ./node_modules/.bin/codecov
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      
